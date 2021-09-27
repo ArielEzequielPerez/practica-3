@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Montserrat, sans-serif;
+    background: #ef4b4c;
+}
+
+
+.contenedor{
+    display: flex;
+    width: 300px;
+    height: 320px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #ef4b4c;
+    box-shadow:  7px 7px 7px #cb4041, -7px -7px 7px #ff5657;
+}
+
+
+
+.contar{
+    font-size: 5rem;
+}
+
